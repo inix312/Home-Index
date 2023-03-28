@@ -160,6 +160,8 @@ export default {
   mounted() {
     setTimeout(() => {
       this.flag = true;
+      // 加载完成后打开抽屉
+      this.centerShow = true;
     }, 1300);
     // 图片懒加载
     this.imgUrl = this.$config.BACKGROUND_IMG_URL;
