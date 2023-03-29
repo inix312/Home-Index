@@ -1,6 +1,6 @@
 const SERVE = true; // 是否使用线上服务器
 
-const HOST = "http://api.inix.fun:1101"; // 线上服务器地址，如果不使用请留空
+const HOST = "https://api.inix.fun"; // 线上服务器地址，如果不使用请留空
 
 const BLOG_NAME = "我的博客"; // 个人网站名字
 
